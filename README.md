@@ -117,4 +117,39 @@ Step 3: Execute java program
 
 *** Make sure the class name and the file name match exactly in order to allow you to run the file.
 
-## JAR (Java Archieve) basics
+## JAR (Java Archive) basics
+JAR = Java Archive 
+    - compressed format of a compiled Java projects
+    - contains .class files + meta data and some other resources
+
+Why do we need JAR files?
+    - used to distribute java code/libraries for use by other projects
+        you can search for javamail jar
+        somebody create a project with a source code - compiled the program into a jar file. We get all the source code now and can use it in our java program. 
+    - direct execution of java program (W/O without the use of IDE)
+
+How to create JAR file from Java Project?
+1. Open the Eclipse IDE with your project open
+2. right click the LearnJava > Export
+    type jar then click the JAR file
+    click next. Then you can select the location where you want to save it.
+    C:\Users\monik\OneDrive\Desktop\Java-Beginner-Tutorial\JARTest\HelloWorld.jar
+    Click Next then Next. In the Page where it asks you to select the Main class this is where you must select the HelloWorld Class
+    Then Next and save.
+    To execute this JAR file you need to open a command prompt or terminal. cd into the location of this .jar file. 
+    Then type in:
+        java -jar HelloWorld.jar
+
+    To Decompress the .jar file
+        right click on the .jar file > Open with > then unzip with any program
+        Now you will see a folder. Then if you go inside the folder oyou will see the .class folder and the META-INF. If you open this MANIFEST.MF with a text editor you will see that this has information on your main class. 
+
+        The Java Decompiler you can use for example is on jf.benow.ca whcih has a Java Decompiler
+            you can download the gui you can also add it as a plugin for eclipse.
+        
+        Java Decompiler 
+             Open it
+             locate the jar file
+             then you can see it has decompiled and given you the .java file exactly what it used to be.
+
+## What is JDK JRE and JVM?
