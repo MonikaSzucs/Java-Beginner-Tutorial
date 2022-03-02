@@ -56,10 +56,45 @@ Step 5: Check if Java is installed and available
     java --version
 
 
+## Getting Started with Eclipse IDE
+IDE - Integrated development environment
+
+Step 1: Download eclipse
+    Search for Eclipse Download
+    You can select any release
+    Make sure to download the one called Eclipse IDE fro Java EE Developers
+    https://www.eclipse.org/downloads/packages/
+
+    Once you install the program and you launch it, it will ask you for a Workspace. This is just where all your projects/development tool will be stored in a particular folder.
+
+Step 2: unzip: start eclipse
+    Provide workspace location
+
+Step 3: Open Workbench
+    Just click hide on the options that show up
 
 
+## Making the First Java Program
+Step 1: Open Eclipse - select workspace
+    Eclipse is platform independent which meants it doesn't matter which operating system you are on.
 
+Step 2: Create a Java Project
+    File > New > Java Project
+        Project Name: learnJava
+        Keep everything else as default then click next
 
+    Click on the src folder then:
+        right click new > Package > name is myfirstjavaprogram
+        You will categorize codes into different packages (this is types in all lowercase)
+    
+    Right click on the package we created:
+        New > Class
+        Name: HelloWorld
+        Checkmark (select): public static void main(String args[])
+        Then click finish
 
-
-
+Step 3: Compile and run
+    Run > Run
+    or right click run as > Java Application
+    or right click on the class in the right side and run as > Java Application
+    There is also a play button at the top.
