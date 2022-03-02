@@ -98,3 +98,23 @@ Step 3: Compile and run
     or right click run as > Java Application
     or right click on the class in the right side and run as > Java Application
     There is also a play button at the top.
+
+## Command Line Execution
+1. How to run the java program from the command line
+
+Step 1: Go to command line / terminal - go to the location of the Java File
+    cd into the area where you have saved your file but only go into the src directory
+
+
+Step 2: Compile Java Program
+    javac "name of java file (pacakage name)/(name of your Java file)"
+    javac myfirstjavaprogram/HelloWorld.java
+    Now you wil lsee a new file created which is called HellowWorld.class
+
+Step 3: Execute java program
+    java "name of java file without extension"
+    Example: java HelloWorld
+
+*** Make sure the class name and the file name match exactly in order to allow you to run the file.
+
+## JAR (Java Archieve) basics
