@@ -153,3 +153,21 @@ How to create JAR file from Java Project?
              then you can see it has decompiled and given you the .java file exactly what it used to be.
 
 ## What is JDK JRE and JVM?
+JDK:    Java Development Kit
+        environment to develop, compile and run java application
+        JRE + Tools to develop java programs
+
+JRE:    Java Runtime Environment
+        Environment to run java applications
+        JVM + Libraries to run java program
+
+JVM:    Java Virtual Machine
+        interpreter to execute java programs (byte code) line by line
+        JVM runs and interprets our Byte code
+        execute repcompiled java programs (.class, .jar files / bytecode)
+
+Java program  -- (abc.java)--> Java Compiler --( abc.java )--> Java Interpreter --(1010101)--> Computer
+
+When you download a file you will usually be downloading a JRE. 
+
+
