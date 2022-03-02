@@ -171,3 +171,105 @@ Java program  -- (abc.java)--> Java Compiler --( abc.java )--> Java Interpreter 
 When you download a file you will usually be downloading a JRE. 
 
 
+## What is Object Oriented PRogramming 
+1. What is OOP?
+It is a method of programming whre code is designed a based on the functions and attributes of the objects
+
+2. How did OOP come into existence
+    - Nonstructured Programming
+        Developers woudl create a linear code. No models. All actiosn coded in a single program. Used Basic, Cobol, Fortran etc. This is hard to read over time with no models.
+    - Structured Programming
+        Code was organized into structures. Code could talk to each other. example C and Pascal.
+    - OOP - Object Oriented Programming
+        Example mostly used in C++ and Java
+
+3. Understand OOP with Real Life Examples
+    A Bank Account Holder withdraws monet from a ATM.
+    Steps:
+        1. Insert Card
+        2. Enter Passcode (PIN)
+        3. Enter Amount
+        4. Withdraw Cash
+        5. Withdraw Card
+
+    Nonstructure programming it will look like:
+        Program { 
+                    Everything will be in this one area 
+        }
+        - this is linear programming
+        - No modules
+        - Maintenance + enhancements is difficult
+
+    Structure programming
+        - there will be different Modules
+        withdrawMoney(){
+            Code here for this action
+        }
+        depositMoney(){
+            Code here
+        }
+        openAccoint(){
+            Code here
+        }
+        - these modules can all talk to each other. 
+        - if there is a new action/scenario then we can just create another module and make it communicate with the other modules
+        - works on ACTIONS
+        Example: A person opens account with a bank and deposits money and uses his Credit Card to withdraw moeny from ATM. 
+            The three action words this this sentence are opens account, deposits money, withdraw money.
+        - Modular Programming
+        - Maintenance + Change + Enhancements are easier
+
+    Object Oriented Programming (OOP)
+        - Does not work on ACTIONS
+        - Works with Class and Objects
+        - is inspired by real life scenarios and depicts real life entities in the form of OBJECTS that are created using CLASSES
+
+        Class
+            A template or BluePrint for creating objects
+        
+        Objects
+            Are like many houses that someoen creates which is under the same class
+
+        Example:
+            An Account holder withdraws money from his Bank Account using Credit Card
+            - we will need to work on entities
+            - the nouns in the sentence are Account Holder, Bank Account, Credit Card
+
+            Account Holders:
+                - Tom
+                - Henry
+                - Sarah
+            * Each account holder had its own attributes such as:
+                - Name
+                - Age
+                - DOB
+                - Address
+            * There are functions each account holder can do such as:
+                - Deposit Money
+                - Withdraw Money
+                Transfer Funds
+        
+            Example Code structure:
+                class AccountHolder{
+                    String name;
+                    int age;
+                    Date dob;
+                    String address;
+
+                    depositMoney(){
+                        Code here
+                    }
+                    withdrawMoney(){
+                        Code here
+                    }
+                }
+            
+            - Class is a template to definte OBJECTS
+            - Using a class (template) multiple objects can be defined (created)
+            - each class can have its own functions 
+
+
+
+
+
+
