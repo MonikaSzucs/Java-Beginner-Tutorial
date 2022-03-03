@@ -318,4 +318,29 @@ It is a method of programming whre code is designed a based on the functions and
     - Run and validate
 
 
+## How to Add Eclipse Project to GitHub
+
+    Step 1: Create a GitHub Account and Sign-In
+    Step 2: Start a Project = Create a Repository
+    Step 3: Start Eclipse
+    Step 4: Go to Perspective
+        there should be a button/icon at the top right that says open perspective if you hover over it
+        Then select Git Repository or you can search for git repositories to Add Git Repositories
+        Then at the bottom left you will see a dialogue box which will then allow you to Clone a Git Repository you have created
+        In the dialogue box add the URL from the github repository and paste it in the URI
+        You can then give the Authentaton of your username and password. If you do not it will still ask you to log in. 
+        You can save the project where you want on your computer.
+    Step 5:
+        Create a project in eclipse. 
+    Step 6: 
+        then right click the new project then go to Team > Share Project > Then add to git repository
+        This will then allow you to select the repostiory you want to share with. 
+        Then finish
+    Step 7: 
+        Commit and Push the project to the repo
+        After you made your changes you can right click the file and click Teams > Commit..
+        You can drag and drop teh iteams from Unstanged Changes to Stages Changes then add you commit Message then Commit and Push.
+    Step 8: 
+        Commit and Push every change to the repo
+
 
