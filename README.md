@@ -268,8 +268,54 @@ It is a method of programming whre code is designed a based on the functions and
             - Using a class (template) multiple objects can be defined (created)
             - each class can have its own functions 
 
+## How to create Classes and Objects
 
+1. Convert information into tables
+    - Any account holder will have its own attributes or variables with the same functions involved
 
+    Example:
+        class AccountHolder {
+            String firstName;
+            String lastName;
+            int age;
+            float accountBalance;
+            boolean eligibleForCreditCard;
+
+            testCreditCardEligibility(){
+                Code here
+            }
+        }
+
+2. Create Class and variables using tables
+    Step 1: 
+        Represent Account Holder details in a simple table
+        Account holder can include:
+            - First Name                    Tom
+            - Last NAme                     Smith
+            - Age                           21
+            - Account Balance               10000
+            - Eligible for Credit Card
+        
+        We can write conditions on this entity which is for Eligibility for Credit Card: Age > 25, Account Bal >= 20000
+
+    Step 2: 
+        Create a Java Class with name as TableName and Variables as column names
+
+3. Create Objects
+    - Open up Eclipse
+    - right click erc and create a new java package called: classesandobjects
+    - right click this package and create a new java class called AccountHolder
+
+    Step 3:
+    - Create another class where we will create objects for Account Holder class
+
+    Step 4:
+    - Create objects for Tom, Henry, and Sarah and provide details as below
+
+4. Run the OO (object oriented) program
+
+    Step 5 
+    - Run and validate
 
 
 
